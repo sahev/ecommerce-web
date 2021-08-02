@@ -1,5 +1,5 @@
 <template>
-  <v-app>
+  <div>
     <v-app-bar app>
       <v-app-bar-nav-icon @click="drawer = !drawer"></v-app-bar-nav-icon>
 
@@ -13,7 +13,8 @@
     <template>
       <Products />
     </template>
-  </v-app>
+
+  </div>
 </template>
 
 <script>

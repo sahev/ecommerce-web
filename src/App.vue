@@ -1,20 +1,17 @@
 <template>
-    <v-main>
-      <Home/>
-    </v-main>
+  <v-app>
+    <router-view />
+    <!-- <Home/> -->
+  </v-app>
 </template>
 
 <script>
-import Home from './pages/Home';
+// import Home from './pages/Home';
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    Home,
+    // Home
   },
-
-  data: () => ({
-    //
-  }),
 };
 </script>
